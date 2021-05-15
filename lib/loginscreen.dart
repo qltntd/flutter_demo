@@ -17,7 +17,7 @@ class _LoginScreenState extends State<LoginScreen>{
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          "Email",
+          "Emaile",
           style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -115,6 +115,7 @@ class _LoginScreenState extends State<LoginScreen>{
   Widget buildForgotPassBtn(){
     return Container(
       alignment: Alignment.centerRight,
+      // ignore: deprecated_member_use
       child: FlatButton(
         onPressed: () => print(" Forgot Password Pressed"),
         child: Text(
@@ -162,6 +163,7 @@ class _LoginScreenState extends State<LoginScreen>{
     return Container(
       padding: EdgeInsets.symmetric(vertical: 25),
       width: double.infinity,
+      // ignore: deprecated_member_use
       child: RaisedButton(
         elevation: 5,
         onPressed: () => print('Login Pressed'),
