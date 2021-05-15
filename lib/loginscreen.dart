@@ -62,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen>{
         Text(
           "PassWord",
           style: TextStyle(
-              color: Colors.white,
+              color: Colors.red,
               fontSize: 16,
               fontWeight: FontWeight.bold
           ),
